@@ -143,7 +143,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
 #mainav{}
-#mainav ul.clear{margin-top:3px;}
+#mainav ul.clear{margin-top:.5px;}
 #mainav ul{text-transform:uppercase;}
 #mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none;}
 #mainav ul ul ul{left:180px; top:0;}
@@ -240,8 +240,8 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#CBCBCB; background-color:#222222;}
-a{color:#FF5723;}
+body{color:solid black; background-color:#222222;}
+a{color:white;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -249,7 +249,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FF5723;}
 .overlay{color:#CBCBCB; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#FF5723; border-color:#FF5723;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#ef680f; border-color:#FF5723;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
@@ -263,7 +263,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FF5723;}
 .overlay .heading, .row2 .heading, .row4 .heading{color:#FFFFFF;}
 
 /* Header */
-#header #logo a{color:inherit;}
+#header #logo a{color:solid black;}
 
 
 /* Content Area */
